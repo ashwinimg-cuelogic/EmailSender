@@ -1,0 +1,83 @@
+{
+    "Records": [
+        {
+            "eventID": "630e59b00e420f628f2c588600a7b4d0",
+            "eventName": "MODIFY",
+            "eventVersion": "1.0",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-west-2",
+            "dynamodb": {
+                "Keys": {
+                    "Local": {
+                        "S": "be"
+                    },
+                    "Timestamp": {
+                        "N": "1451999394.016"
+                    }
+                },
+                "NewImage": {
+                    "EmailType": {
+                        "S": "newsletter"
+                    },
+                    "ReferenceId": {
+                        "N": "3"
+                    },
+                    "UserId": {
+                        "N": "2"
+                    },
+                    "Local": {
+                        "S": "be"
+                    },
+                    "From": {
+                        "S": "test@test.com"
+                    },
+                    "To": {
+                        "S": "kpellikaan@gmail.com"
+                    },
+                    "Timestamp": {
+                        "N": "1451999394.016"
+                    },
+                    "Subject": {
+                        "S": "subject"
+                    },
+                    "content": {
+                        "S": "test"
+                    }
+                },
+                "OldImage": {
+                    "EmailType": {
+                        "S": "newsletter"
+                    },
+                    "ReferenceId": {
+                        "N": "2"
+                    },
+                    "UserId": {
+                        "N": "2"
+                    },
+                    "Local": {
+                        "S": "be"
+                    },
+                    "From": {
+                        "S": "test@test.com"
+                    },
+                    "To": {
+                        "S": "kpellikaan@gmail.com"
+                    },
+                    "Timestamp": {
+                        "N": "1451999394.016"
+                    },
+                    "Subject": {
+                        "S": "subject"
+                    },
+                    "content": {
+                        "S": "test"
+                    }
+                },
+                "SequenceNumber": "3848300000000001971682183",
+                "SizeBytes": 280,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-west-2:239008661775:table/EmailQueue/stream/2016-01-05T09:41:27.225"
+        }
+    ]
+}
